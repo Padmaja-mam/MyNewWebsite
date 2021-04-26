@@ -1,0 +1,123 @@
+body
+{
+text-align : center;
+background-image : url("https://i2.wp.com/static.web-backgrounds.net/uploads/2012/08/Abstract_Green_Background_with_Floral_Elements.jpg");
+margin: 0%;
+background-repeat: no-repeat;
+background-size:contain;
+}
+
+#AboutMe
+{
+position: relative;
+display: table;
+height: 100%;
+width : 100%;
+z-index: 9;
+}
+
+#MyStudents
+{
+display: table;
+height: 100%;
+width : 100%;
+z-index: 9;
+}
+
+#MyOffice
+{
+display: table;
+height: 100%;
+width : 100%;
+z-index: 9;
+}
+
+#myytchannel
+{
+display: table;
+height: 100%;
+width : 100%;
+z-index: 9;
+}
+
+
+.menu {
+    list-style: none;
+    position: relative;
+    float: left;
+    top: 10px;
+    right: 30px;
+    cursor: pointer;
+    z-index: 10;
+    }
+
+.links
+{
+color : lime;
+padding-top : 5px;
+padding-left : 5px;
+padding-right : 5px;
+padding-bottom : 5px;
+float:left;
+}
+
+a
+{
+text-decoration : none;
+}
+
+.links:hover
+{
+background-color : white;
+}
+
+html
+{
+    scroll-behavior : smooth;
+}
+
+img
+{
+width : 300px;
+height : 300px;
+border-radius: 100px;
+border-color: chartreuse;
+border-width: 5px;
+}
+
+.parallax-inner 
+{
+    display: table-cell;
+    position: relative;   
+}
+h1
+{
+    font-size: large;
+    font-family :"Trebuchet MS";
+    color : yellow;
+}
+h2
+{
+font-size: medium;
+color :rgb(252, 19, 147)
+font-family: "Veranda";
+}
+h3
+{
+font-size:large;
+color: rgb(252, 19, 147);
+font-family: "Comic";
+}
+
+#Sami
+{
+    width : 200px;
+    height : 200px;
+    align-self: center;
+}
+#myname
+{
+    font-family:"Brush Script MT";
+    font-size: xx-large;
+    color :rgb(252, 19, 147);
+}
